@@ -3,9 +3,10 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="bg-dark text-white text-center py-3 mt-5">
+        <footer className="bg-dark text-white text-center py-2 " style={{ margin: 0 }}>
             <p>&copy; 2025 Julian Zulatto. Todos los derechos reservados.</p>
-        </footer>)
+        </footer>
+    )
 }
 
 export default Footer;

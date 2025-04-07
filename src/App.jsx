@@ -1,25 +1,10 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-
-// Importa los componentes de las diferentes páginas
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Navigationbar from './components/Navbars/Navbar';
-import Footer from './components/Footer/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import Layout from './pages/Layout';
 
 function App() {
-  return (
-    <>
-      <Navigationbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </>
-  );
+  return <Layout />
 }
 
 export default App;
