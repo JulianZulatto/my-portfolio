@@ -6,6 +6,7 @@ import desarrollowebCert from '../resources/Desarrollo-Web.png';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
+import CardComponent from "../components/Cards/Card";
 
 
 function Education() {
@@ -14,48 +15,35 @@ function Education() {
             <h2 className="text-center">Educacion</h2>
             <Row>
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={desarrollowebCert} />
-                        <Card.Body>
-                            <Card.Title>Desarrollo Web - Coderhouse</Card.Title>
-                            <Card.Text>
-                                Certificado de finalización obtenido el 13 de marzo de 2024.
-                                Curso enfocado en HTML, CSS, Git y principios fundamentales del desarrollo frontend.
-                            </Card.Text>
-                            <Button variant="primary">Ver Certificado</Button>
-                        </Card.Body>
-                    </Card>
+                    <CardComponent 
+                    img={desarrollowebCert} 
+                    title={"Desarrollo Web - Coderhouse"} 
+                    text={"Certificado de finalización obtenido el 13 de marzo de 2024. Curso enfocado en HTML, CSS, Git y principios fundamentales del desarrollo frontend."}
+                    src="#"              
+                    />   
                 </Col>
 
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={javascriptCert} />
-                        <Card.Body>
-                            <Card.Title>JavaScript - Coderhouse</Card.Title>
-                            <Card.Text>
-                                Certificado de finalización obtenido el 8 de julio de 2024.
-                                Curso centrado en lógica de programación, funciones, DOM, eventos y asincronía con JavaScript puro.
-                            </Card.Text>
-                            <Button variant="primary">Ver Certificado</Button>
-                        </Card.Body>
-                    </Card>
+                <CardComponent 
+                    img={javascriptCert} 
+                    title={"JavaScript - Coderhouse"} 
+                    text={"Certificado de finalización obtenido el 8 de julio de 2024. Curso centrado en lógica de programación, funciones, DOM, eventos y asincronía con JavaScript puro."}
+                    src="#"              
+                    />
                 </Col>
+
                 <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={reactCert} />
-                        <Card.Body>
-                            <Card.Title>React - Coderhouse</Card.Title>
-                            <Card.Text>
-                                Certificado de finalización obtenido el 19 de septiembre de 2024.
-                                Curso enfocado en el desarrollo de aplicaciones con React, JSX, estados, props, hooks y enrutamiento.
-                            </Card.Text>
-                            <Button variant="primary">Ver Certificado</Button>
-                        </Card.Body>
-                    </Card>
+                    <CardComponent 
+                    img={reactCert} 
+                    title={"React - Coderhouse"} 
+                    text={"Certificado de finalización obtenido el 19 de septiembre de 2024.  Curso enfocado en el desarrollo de aplicaciones con React, JSX, estados, props, hooks y enrutamiento."}
+                    src="#"              
+                    />
                 </Col>
             </Row>
         </section>
     )
+    
 };
 
 export default Education;

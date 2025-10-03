@@ -8,6 +8,7 @@ import jsIcon from "../resources/javascript.png";
 import htmlIcon from "../resources/html.png";
 import cssIcon from "../resources/css.png";
 import bootstrapIcon from "../resources/BootstrapIcon.png";
+import coreUiIcon from "../resources/coreUI.png";
 
 function Skils() {
     return (
@@ -34,6 +35,10 @@ function Skils() {
                     <Col xs={6} sm={4} md={3} lg={2} className='text-center'>
                         <Image src={bootstrapIcon} style={{ width: "100px", height: "100px" }} />
                         <h4>Bootstrap</h4>
+                    </Col>
+                    <Col xs={6} sm={4} md={3} lg={2} className='text-center'>
+                        <Image src={coreUiIcon} style={{ width: "100px", height: "100px" }} />
+                        <h4>CoreUI</h4>
                     </Col>
                 </Row>
             </Container>
