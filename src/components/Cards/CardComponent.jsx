@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function CardComponent ({img, title, text, src}){
+function CardComponent ({img, title, text, onButtonClick}){
     return(
         <>
         <Card style={{ width: '18rem' }}>
@@ -11,7 +11,7 @@ function CardComponent ({img, title, text, src}){
                             <Card.Text>
                                 {text}
                             </Card.Text>
-                            <Button variant="primary" src={src}>Ver Certificado</Button>
+                            <Button variant="primary" onClick={onButtonClick}>Ver Certificado</Button>
                         </Card.Body>
                     </Card>
         </>
