@@ -3,7 +3,7 @@
 function Projects() {
     return (
         <section id="projects" className="container mt-5">
-            <h2 className="text-center">Mis Proyectos</h2>
+            <h2 className="text-center" style={{color:"#22D3EE"}}>Mis Proyectos</h2>
             <div className="row">
                 <div className="col-md-4">
                     <div className="card">

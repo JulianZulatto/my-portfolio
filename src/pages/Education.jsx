@@ -29,7 +29,7 @@ function Education() {
 
     return (
         <section id="education" className="container mt-5">
-            <h2 className="text-center">Educacion</h2>
+            <h2 className="text-center" style={{color:"#22D3EE"}}>Educacion</h2>
             <Row>
                 <Col>
                     <CardComponent 

@@ -4,14 +4,14 @@ import Card from 'react-bootstrap/Card';
 function CardComponent ({img, title, text, onButtonClick}){
     return(
         <>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem', backgroundColor:"#15223fff" }}>
                         <Card.Img variant="top" src={img} />
                         <Card.Body>
-                            <Card.Title><strong>{title}</strong></Card.Title>
-                            <Card.Text>
+                            <Card.Title style={{color:"#22D3EE"}}><strong>{title}</strong></Card.Title>
+                            <Card.Text style={{color:"#22D3EE"}}>
                                 {text}
                             </Card.Text>
-                            <Button variant="primary" onClick={onButtonClick}>Ver Certificado</Button>
+                            <Button  style={{backgroundColor:"#15223fff", borderColor:"#22D3EE"}} onClick={onButtonClick}>Ver Certificado</Button>
                         </Card.Body>
                     </Card>
         </>

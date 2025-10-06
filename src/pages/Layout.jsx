@@ -12,7 +12,7 @@ export default function Layout() {
         <>
             <div className="d-flex vh-100 navbar-fixed">
                 <PortfolioNavBar />
-                <main className="flex-grow-1 overflow-auto p-4" style={{ backgroundColor: "#f7f7f7" }}>
+                <main className="flex-grow-1 overflow-auto p-4" style={{ backgroundColor: "#0F172A" }}>
                     <Julian />
                     <About />
                     <Education />
