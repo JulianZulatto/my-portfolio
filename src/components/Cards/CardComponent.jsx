@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function CardComponent ({img, title, text, onButtonClick}){
+function CardComponent ({name ,img, title, text, onButtonClick}){
     return(
         <>
         <Card style={{ width: '18rem', backgroundColor:"#15223fff" }}>
@@ -11,7 +11,7 @@ function CardComponent ({img, title, text, onButtonClick}){
                             <Card.Text style={{color:"#22D3EE"}}>
                                 {text}
                             </Card.Text>
-                            <Button  style={{backgroundColor:"#15223fff", borderColor:"#22D3EE"}} onClick={onButtonClick}>Ver Certificado</Button>
+                            <Button  style={{backgroundColor:"#15223fff", borderColor:"#22D3EE"}} onClick={onButtonClick}>{name}</Button>
                         </Card.Body>
                     </Card>
         </>

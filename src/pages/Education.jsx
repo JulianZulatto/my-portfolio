@@ -36,7 +36,8 @@ function Education() {
                     img={desarrollowebCert} 
                     title={"Desarrollo Web - Coderhouse"} 
                     text={"Certificado de finalización obtenido el 13 de marzo de 2024. Curso enfocado en HTML, CSS, Git y principios fundamentales del desarrollo frontend."}
-                    onButtonClick={()=>{handleModalOpen(desarrollowebCert)}}             
+                    onButtonClick={()=>{handleModalOpen(desarrollowebCert)}}
+                    name={"Ver Certificado"}             
                     />  
                 </Col>
 
@@ -45,7 +46,8 @@ function Education() {
                     img={javascriptCert} 
                     title={"JavaScript - Coderhouse"} 
                     text={"Certificado de finalización obtenido el 8 de julio de 2024. Curso centrado en lógica de programación, funciones, DOM, eventos y asincronía con JavaScript puro."}
-                    onButtonClick={()=>{handleModalOpen(javascriptCert)}}              
+                    onButtonClick={()=>{handleModalOpen(javascriptCert)}}   
+                    name={"Ver Certificado"}           
                     />
                 </Col>
 
@@ -54,7 +56,8 @@ function Education() {
                     img={reactCert} 
                     title={"React - Coderhouse"} 
                     text={"Certificado de finalización obtenido el 19 de septiembre de 2024.  Curso enfocado en el desarrollo de aplicaciones con React, JSX, estados, props, hooks y enrutamiento."}
-                    onButtonClick={()=>{handleModalOpen(reactCert)}}              
+                    onButtonClick={()=>{handleModalOpen(reactCert)}}  
+                    name={"Ver Certificado"}            
                     />
                 </Col>
             </Row>
