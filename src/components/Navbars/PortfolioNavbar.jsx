@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from 'react-bootstrap';
 import image from '../../resources/20231021_162320.jpg'
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./DownloadHover.css"
 
 export default function PortfolioNavBar() {
     return (
@@ -14,6 +15,10 @@ export default function PortfolioNavBar() {
                         style={{ width: "80px", height: "80px", objectFit: "cover", imageRendering: "auto" }}
                     />
                 </NavbarBrand>
+                <Nav className='border rounded-3 p-2 download-btn-hover'>
+                    <NavLink href='\CV_Julian_Zulatto.pdf' download={"CV_Julian_Zulatto.pdf"} style={{ color: "#F4F4F4" }}>
+                        Descargar CV (PDF)</NavLink>
+                </Nav>
                 <NavbarToggle aria-controls='basic-navbar-nav' />
                 <NavbarCollapse id='basic-navbar-nav'>
                     <Nav className="ms-auto">

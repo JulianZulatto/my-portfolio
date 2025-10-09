@@ -1,0 +1,7 @@
+.download-btn-hover {
+    transition: all 0.3s ease;
+}
+.download-btn-hover:hover {
+    background-color: #131f3b;
+    color: #F4F4F4 !important;
+}
