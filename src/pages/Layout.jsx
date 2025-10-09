@@ -9,20 +9,19 @@ import Footer from "../components/Footer/Footer";
 
 export default function Layout() {
     return (
-        <>
-            <div className="d-flex vh-100 navbar-fixed">
+        <div className="d-flex flex-column">
+            <div>
                 <PortfolioNavBar />
-                <main className="flex-grow-1 overflow-auto p-4" style={{ backgroundColor: "#0F172A" }}>
+                <main className=" overflow-auto p-4" style={{ backgroundColor: "#0F172A" }}>
                     <Julian />
                     <About />
                     <Education />
                     <Skils />
                     <Projects />
                     <Contact />
-
                 </main>
             </div>
             <Footer />
-        </>
+        </div>
     )
 };
