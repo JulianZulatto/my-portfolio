@@ -16,7 +16,7 @@ export default function PortfolioNavBar() {
                     />
                 </NavbarBrand>
                 <Nav className='border rounded-3 p-2 download-btn-hover'>
-                    <NavLink href='public\CV_Julian _Zulatto.pdf' download={"CV_Julian_Zulatto.pdf"} style={{ color: "#F4F4F4" }}>
+                    <NavLink href='/CV_Julian_Zulatto.pdf' download={"CV_Julian_Zulatto.pdf"} style={{ color: "#F4F4F4" }}>
                         Descargar CV (PDF)</NavLink>
                 </Nav>
                 <NavbarToggle aria-controls='basic-navbar-nav' />
