@@ -1,7 +1,17 @@
-.download-btn-hover {
+/* Fondo del menú del dropdown */
+.dropdown-menu {
+    background-color: #1e293b !important; /* azul oscuro para el menú */
+    border: none; /* opcional, para quitar borde blanco */
+}
+
+/* Items del dropdown */
+.dropdown-item {
+    color: #F4F4F4 !important; /* texto blanco */
     transition: all 0.3s ease;
 }
-.download-btn-hover:hover {
-    background-color: #131f3b;
+
+/* Hover de los items */
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #131f3b !important; /* tu hover actual */
     color: #F4F4F4 !important;
 }
