@@ -42,7 +42,7 @@ function Projects() {
                     <CardComponent
                         img={LaCumplidoraImage}
                         title={"La Cumplidora"}
-                        text={"Landing Page Publicitaria, realizada con Javascriopt, React, y Tailwind."}
+                        text={"Landing Page Publicitaria, realizada con Javascript, React, y Tailwind."}
                         onButtonClick={handleClickLaCumplidora}
                         name={"Ver Proyecto"}
                     />
