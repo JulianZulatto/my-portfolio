@@ -2,6 +2,7 @@ import CardComponent from "../components/Cards/CardComponent";
 import ToDoImage from "../resources/to-do-list-react.png";
 import ArgosSystemImage from "../resources/argosSystem.png";
 import LaCumplidoraImage from "../resources/LaCumplidora.png";
+import CanchaLlenaImage from "../resources/canchaLlena.jpeg";
 import { Col, Row } from "react-bootstrap";
 
 function Projects() {
@@ -9,6 +10,7 @@ function Projects() {
     const ToDoUrl = "https://to-do-list-react-xi-azure.vercel.app/";
     const ArgosSystemUrl = "https://argos-system.vercel.app/";
     const LaCumplidoraUrl = "https://la-cumplidora.vercel.app/";
+    const CanchaLlenaUrl = "https://cancha-llena.com";
 
 
     const handleClickTodo = () => {
@@ -23,11 +25,25 @@ function Projects() {
         window.open(LaCumplidoraUrl, "_blank");
     };
 
+    const handleClickCanchaLlena = () => {
+        window.open(CanchaLlenaUrl, "_blank");
+    };
+
     return (
         <section id="projects" className="container mt-5">
             <h2 className="text-center" style={{ color: "#22D3EE" }}>Proyectos</h2>
 
             <Row>
+                <Col>
+                    <CardComponent
+                        img={CanchaLlenaImage}
+                        title={"Cancha Llena"}
+                        text={"Sistema Web"}
+                        onButtonClick={handleClickCanchaLlena}
+                        name={"Ver Proyecto"}
+                    />
+                </Col>
+
                 <Col>
                     <CardComponent
                         img={ArgosSystemImage}
