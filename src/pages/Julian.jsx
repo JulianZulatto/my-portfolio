@@ -47,7 +47,7 @@ function Julian() {
                                             variant="secondary"
                                             id="dropdown-basic"
                                             className='rounded-3 p-2 '
-                                            style={{ height: "60px", backgroundColor: "#55e6a5", color: "#000000", border: "none", boxShadow: "none" }}
+                                            style={{ height: "60px", width: "180px", backgroundColor: "#55e6a5", color: "#000000", border: "none", boxShadow: "none" }}
                                         >
                                             Descargar CV
                                         </Dropdown.Toggle>
@@ -76,8 +76,8 @@ function Julian() {
                                 <div className="w-100 pb-3">
                                     <Button
                                         onClick={() => handleModalOpen("video")}
-                                        style={{ height: "60px", backgroundColor: "#55e6a5", color: "#000000", border: "none", boxShadow: "none" }}
-                                        className='border-radius rounded-3 p-2 w-100 w-md-auto'>
+                                        style={{ height: "60px", width: "180px", backgroundColor: "#55e6a5", color: "#000000", border: "none", boxShadow: "none" }}
+                                        className='border-radius rounded-3 p-2 w-md-auto'>
                                         Ver Video de Presentacion
                                     </Button>
                                 </div>

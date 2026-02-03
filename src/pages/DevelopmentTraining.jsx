@@ -29,7 +29,7 @@ function DevelopmentTraining() {
         <section id="education" className="container mt-5">
             <h2 className="text-center" style={{ color: "#55e6a5" }}>Formacion en desarrollo</h2>
             <Row>
-                <Col className='mb-3'>
+                <Col xs={12} md={4} className='mb-3'>
                     <CardComponent
                         img={desarrollowebCert}
                         title={"Desarrollo Web - Coderhouse"}
@@ -39,7 +39,7 @@ function DevelopmentTraining() {
                     />
                 </Col>
 
-                <Col className='mb-3'>
+                <Col xs={12} md={4} className='mb-3'>
                     <CardComponent
                         img={javascriptCert}
                         title={"JavaScript - Coderhouse"}
@@ -49,7 +49,7 @@ function DevelopmentTraining() {
                     />
                 </Col>
 
-                <Col className='mb-3'>
+                <Col xs={12} md={4} className='mb-3'>
                     <CardComponent
                         img={reactCert}
                         title={"React - Coderhouse"}
