@@ -1,0 +1,12 @@
+.custom-button{
+    background-color: #55e6a5;
+    color: #000;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #3fd08f;
+    color: #000;
+    transform: translateY(-2px);
+}
