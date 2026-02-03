@@ -1,17 +1,25 @@
 /* Fondo del menú del dropdown */
 .dropdown-menu {
-    background-color: #1e293b !important; /* azul oscuro para el menú */
+    background-color: #55e6a5 !important; /* azul oscuro para el menú */
     border: none; /* opcional, para quitar borde blanco */
 }
 
 /* Items del dropdown */
 .dropdown-item {
-    color: #F4F4F4 !important; /* texto blanco */
+    color: #000000 !important; /* texto blanco */
     transition: all 0.3s ease;
 }
 
 /* Hover de los items */
 .dropdown-item:hover, .dropdown-item:focus {
-    background-color: #131f3b !important; /* tu hover actual */
-    color: #F4F4F4 !important;
+    background-color: #16c074 !important; /* tu hover actual */
+    color: #000000 !important;
+}
+
+.brand-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #55e6a5;
+    text-decoration: none;
 }
