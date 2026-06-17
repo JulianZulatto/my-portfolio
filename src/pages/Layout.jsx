@@ -7,6 +7,7 @@ import Skils from "./Skils";
 import Projects from "./Projects";
 import Footer from "../components/Footer/Footer";
 import AcademicEducation from "./AcademicEducation";
+import Experience from "./Experience.jsx";
 
 export default function Layout() {
     return (
@@ -16,6 +17,7 @@ export default function Layout() {
                 <main className=" overflow-auto p-4">
                     <Julian />
                     <About />
+                    <Experience/>
                     <AcademicEducation />
                     <DevelopmentTraining />
                     <Skils />

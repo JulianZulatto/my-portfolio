@@ -26,15 +26,15 @@ function Julian() {
                         <Row>
                             <Col className='d-flex flex-column align-items-center mt-5 '>
                                 <h1 className="text-white text-center fs-1 fs-md-1">
-                                    Soy <span style={{ color: "#55e6a5" }}>[Julian Zulatto]</span>
+                                    <span style={{ color: "#55e6a5" }}>Julian Zulatto</span>
                                 </h1>
 
                                 <h2 className="text-white text-center fs-3 fs-md-3">
-                                    Desarrollador Front-End
+                                    Desarrollador Front-End React y JavaScript
                                 </h2>
 
                                 <h4 className="text-white text-center fs-5 fs-md-5">
-                                    Bienvenido a mi Portfolio
+                                    Sistemas de Gestión, Backoffice e Integración con IA
                                 </h4>
                             </Col>
                         </Row>
