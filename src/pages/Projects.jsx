@@ -31,7 +31,7 @@ function Projects() {
                     <CardComponent
                         img={CanchaLlenaImage}
                         title={"Cancha Llena"}
-                        text={"Sistema Web"}
+                        text={"Sistema web de reservas de canchas. Colaboré en la etapa final del proyecto, implementando mejoras en frontend, ajustando flujos de reserva e integrando funcionalidades en backend mediante trabajo guiado con IA."}
                         onButtonClick={handleClickCanchaLlena}
                         name={"Ver Proyecto"}
                     />
@@ -41,7 +41,7 @@ function Projects() {
                     <CardComponent
                         img={ArgosSystemImage}
                         title={"Argos System"}
-                        text={"ERP realizado con Javascript, React, CoreUI y Firestore."}
+                        text={"Sistema de gestión desarrollado con React y Firestore para administrar clientes, productos, stock y ventas mediante una interfaz web."}
                         onButtonClick={handleClickArgos}
                         name={"Ver Proyecto"}
                     />
@@ -51,7 +51,7 @@ function Projects() {
                     <CardComponent
                         img={LaCumplidoraImage}
                         title={"La Cumplidora"}
-                        text={"Landing Page Publicitaria, realizada con Javascript, React, y Tailwind."}
+                        text={"Landing page desarrollada para una distribuidora de agua y soda, orientada a prestar servicios y facilitar el contacto con potenciales clientes."}
                         onButtonClick={handleClickLaCumplidora}
                         name={"Ver Proyecto"}
                     />
