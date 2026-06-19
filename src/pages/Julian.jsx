@@ -55,8 +55,8 @@ function Julian() {
                                         <Dropdown.Menu>
                                             <Dropdown.Item
                                                 className="border-radius rounded-3 p-2 download-btn-hover"
-                                                href="/CV_Julian_Zulatto.pdf"
-                                                download="CV_Julian_Zulatto.pdf"
+                                                href="/CV_Julian_Zulatto_Español.pdf"
+                                                download="CV_Julian_Zulatto_Español.pdf"
 
                                             >
                                                 CV en Español (PDF)
